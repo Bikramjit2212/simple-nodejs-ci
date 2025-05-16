@@ -6,7 +6,7 @@ const port = 3000;
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello, GitHub Folks! This is a CI/CD demo.\n');
+  res.end('Hello, GitHub! This is a CI/CD demo.\n');
 });
 
 server.listen(port, hostname, () => {
